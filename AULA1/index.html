@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedro💸😨❤️</title>
+
+    <style>
+        
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         background-color: rgb(255, 255, 255);
+         color: rgb(255, 255, 255);
+        
+        }
+
+        .wrapper {
+            background: #3f0172a0;
+            width: 400px;
+            height: 450px;
+        }
+    
+        button{
+            border-radius: 27px;
+        }
+        h1{
+        color: rgb(255, 255, 255);
+        background:#3f0172a0;
+        text-align: center;
+
+    };
+
+
+        
+        
+     </style>
+</head>
+<bodycontededitable></bodycontededitable>
+<div class="wrapper">
+<p style="text-align: center;"></p>    
+<h1>
+        Pedro Araujo
+    </h1>
+    <h2> O DevPedreiro</h2>
+    <h3> Aula 01 - HTML | CSS | JS</h3>
+<h2>
+    Alerta de mensagem!</h2>
+    <p style="text-align: center">
+        <button onclick="Alerta()" >🚨Alerta!🚨</button>
+    </p>
+    
+    <h1>Altere a cor do fundo do site clicando em
+        uma das cores abaixo: </h1>
+        <p style="text-align: center;">
+        <button  onclick="Azul()">Azul</button>
+        <button  onclick="amarelo()">amarelo</button>
+        <button  onclick="ciano()">ciano</button>
+        <button  onclick="branco()">branco</button>
+        <button  onclick="preto()">preto</button>
+
+     <button>
+        <audio controls onclick="som.mp3">
+            <source src="som.mp3" type="audio/mpeg">
+        </audio>
+     </button>
+
+    </p>
+    </div>
+</body>
+<script>console.log("Olá Mundo");
+    
+    
+    function Alerta() {
+        var nome = prompt("Olá, informe seu nome:")
+        alert("🚨esté é um alerta!🚨")
+    }
+    
+    function Azul() {
+        
+        document.getElementsByTagName("body")[0].style.background = "#00f";
+
+    }
+    function amarelo() {
+        
+        document.getElementsByTagName("body")[0].style.background = "#ff0";
+
+    }
+
+    function ciano() {
+        
+        document.getElementsByTagName("body")[0].style.background = "#0ff";
+
+    }
+
+    function branco() {
+        
+        document.getElementsByTagName("body")[0].style.background = "#fff";
+
+    }
+    function preto() {
+        
+        document.getElementsByTagName("body")[0].style.background = "#000";
+
+    }
+
+
+</script>
+</html>
+<!-- como trocar as cores -->
+<!-- document.getElementsByTagName("body")[0].style.background = "#0088ff" -->
