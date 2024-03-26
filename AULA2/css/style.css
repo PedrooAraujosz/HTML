@@ -1,0 +1,38 @@
+
+
+body {
+  background:#6495ED;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(226, 226, 186);
+
+}
+h1.TextoCentro {
+    text-align: center;
+    margin: #000;
+    border-radius: 30px 0px;
+    margin: auto;
+}
+
+
+h1 a:hover {
+    background: #000000;
+}
+
+.fundoLindo{
+    background: rgb(65, 165, 227);
+    border-radius: 40px;
+    padding: 6px;
+    box-shadow: 0px 0px 4px;
+}
+.action{
+    box-shadow: #2e508f;
+    
+}
+
